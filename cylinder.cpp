@@ -3,6 +3,7 @@ Reg No:BCS-03-0093/2025
 Desc: Surface area and volume of a cylinder with classes and objects
 */
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 class cylinder{
@@ -10,13 +11,13 @@ class cylinder{
     float radius, height;
     // member functions
     // volume = πr^2h
-    // surface area = 2πr2 + 2πrh
+    // surface area = 2πr^2 + 2πrh
     double volume(){
-        return 3.14 * radius* radius * height;
-    };
+        return M_PI * radius * radius * height; // Use M_PI from cmath
+    }
     double surfaceArea(){
-        return 2 * 3.14 * radius * radius * height + 2 * 3.14 * radius * height;
-    };
+        return 2 * M_PI * radius * radius + 2 * M_PI * radius * height; // Use M_PI from cmath
+    }
 };
 
 int main() {
