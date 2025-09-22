@@ -17,9 +17,9 @@ class Product{
 int main() {
     Product prod1;
     int TotalProduct;
-    prod1.num1 = 5;
-    prod1.num2 = 10;
-    prod1.num3 = 15;
+    prod1.num1 = 22;
+    prod1.num2 = 30;
+    prod1.num3 = 50;
 
     TotalProduct = prod1.calculateProduct();
     cout<<"The product of the three numbers is "<<TotalProduct <<endl;
