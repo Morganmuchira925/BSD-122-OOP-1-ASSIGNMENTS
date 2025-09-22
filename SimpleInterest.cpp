@@ -1,3 +1,7 @@
+/*Name: Morgan Muchira
+Reg No: Bcs-03-0093/2025
+Description: Calculate simple interest using function calls, prototype and declaration 
+*/
 #include<iostream>
 using namespace std;
 
