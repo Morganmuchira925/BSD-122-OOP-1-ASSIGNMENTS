@@ -1,6 +1,6 @@
 /*Name: Morgan Muchira
 Reg No:BCS-03-0093/2025
-Desc: Surface area and volume with classes and objects
+Desc: Surface area and volume of a cylinder with classes and objects
 */
 #include<iostream>
 using namespace std;
