@@ -1,6 +1,6 @@
 /*Name: Morgan Muchira
 Reg.No: BCS-03-0093/2025
-Description: Library Management System Task for Cat One */
+Description: Library Management System Task for Cat Two */
 #include<iostream>
 using namespace std;
 
